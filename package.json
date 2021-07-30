@@ -1,0 +1,23 @@
+{
+  "name": "ezepub",
+  "version": "0.0.1",
+  "description": "Write ePub Books from your code editor",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del-cli ./build/*",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [
+    "epub"
+  ],
+  "author": "Sherin Binu <sherinbinu@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.3.5"
+  }
+}
